@@ -1,0 +1,22 @@
+public class Dog {
+	String name,breed;
+	
+	public Dog(String name,String breed) {
+		this.name=name;
+		this.breed=breed;
+	}
+	public void display() {
+		System.out.println(name);
+		System.out.println(breed);
+	}
+	public static void main(String[] args) {
+		Dog d = new Dog("Bruno","street dog");
+		d.display();
+		System.out.println("Modified");
+		Dog d1 = new Dog("zoi","Bull mastiff");
+		d1.display();
+		
+
+	}
+
+}
